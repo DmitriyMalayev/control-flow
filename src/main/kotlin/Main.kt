@@ -23,13 +23,18 @@ fun main() {
         }
     }
 
-    when (someVariable){
-        0,1 -> println("The value was 0 or 1")
+    when (someVariable) {
+        0, 1 -> println("The value was 0 or 1")
         2 -> println("The value is 2")
         3 -> println("The value is 3")
-        in 4 .. Int.MAX_VALUE -> println("The value was greater than 3")
+        in 4..Int.MAX_VALUE -> println("The value was greater than 3")
 
 
     }
+    statementsAndExpressions()
+    whenExpressions()
+    getMessageWithWhen(3)
+    usingTryCatch()
+    usingTryCatchSpecificExceptions()
 }
 
